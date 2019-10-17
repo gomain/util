@@ -1,10 +1,11 @@
 {
   "name": "@gomain/util",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Collection of Javascript utility functions",
   "main": "lib/util.js",
   "scripts": {
     "build-babel": "babel --out-dir lib --copy-files --source-maps true src",
+    "prepare": "npm run build-babel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -68,5 +69,8 @@
       "@babel/plugin-proposal-function-bind",
       "@babel/plugin-proposal-partial-application"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
