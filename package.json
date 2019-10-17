@@ -1,8 +1,8 @@
 {
   "name": "@gomain/util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Collection of Javascript utility functions",
-  "main": "lib/util.js",
+  "module": "lib/util.js",
   "scripts": {
     "build-babel": "babel --out-dir lib --copy-files --source-maps true src",
     "prepare": "npm run build-babel",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "util",
-    "function"
+    "functions"
   ],
   "author": "Joe Gomain Hoyes<gomain@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
