@@ -1,29 +1,26 @@
 {
-  "name": "npm-emacs-scaffolding",
+  "name": "util",
   "version": "1.0.0",
-  "description": "Settup an npm template-project with babel, eslint & now tobe edited with emacs.",
+  "description": "Collection of Javascript utility functions",
   "main": "index.js",
   "scripts": {
     "build-babel": "babel --out-dir lib --copy-files --source-maps true src",
-    "build-parcel": "rm -rf dist/ && parcel build lib/index.html",
-    "build": "npm run build-babel && npm run build-parcel",
-    "start-dev": "now dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gomain/npm-emacs-scaffolding.git"
+    "url": "git+https://github.com/gomain/util.git"
   },
   "keywords": [
-    "cyclejs",
-    "tutorial"
+    "util",
+    "function"
   ],
   "author": "gomain@gmail.com",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/gomain/npm-emacs-scaffolding"
+    "url": "https://github.com/gomain/util/issues"
   },
-  "homepage": "https://github.com/gomain/npm-emacs-scaffolding#readme",
+  "homepage": "https://github.com/gomain/util#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.6.4",
@@ -38,9 +35,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "now": "^16.3.1",
-    "parcel-bundler": "^1.12.4"
+    "eslint-plugin-standard": "^4.0.1"
   },
   "eslintConfig": {
     "root": true,
