@@ -1,8 +1,8 @@
 {
-  "name": "util",
+  "name": "@gomain/util",
   "version": "1.0.0",
   "description": "Collection of Javascript utility functions",
-  "main": "index.js",
+  "main": "lib/util.js",
   "scripts": {
     "build-babel": "babel --out-dir lib --copy-files --source-maps true src",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
     "util",
     "function"
   ],
-  "author": "gomain@gmail.com",
+  "author": "Joe Gomain Hoyes<gomain@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/gomain/util/issues"
